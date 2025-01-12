@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "72088820713",
+    "firebase_url": "https://api-project-62510532.firebaseio.com",
+    "project_id": "api-project-62510532",
+    "storage_bucket": "api-project-62510532.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:72088820713:android:9ec838b23a82cf6d734978",
+        "android_client_info": {
+          "package_name": "com.tencent.baiyeint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "72088820713-qt2emumrrel1g12a7mq9g2fakg7jhi3r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tencent.baiyeint",
+            "certificate_hash": "18f1e7342c1fbd15ae51acd4a1c9ccc889f1a982"
+          }
+        },
+        {
+          "client_id": "72088820713-r1g801gh8tr7tj211j9ak11brl0os6ha.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtDZdJvpIZHmX644ebRwqxV6S_E9wazik"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "72088820713-r1g801gh8tr7tj211j9ak11brl0os6ha.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "72088820713-1bpagj9obspdsut137naaf04m1lo3s5k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tencent.baiyeint",
+                "app_store_id": "1529088856"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

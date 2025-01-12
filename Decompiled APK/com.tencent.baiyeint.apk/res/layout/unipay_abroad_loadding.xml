@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/unipay_progress" android:layout_width="44.0dip" android:layout_height="44.0dip" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/unipay_abroad_drawable_loading" android:indeterminateDuration="100" android:indeterminateBehavior="repeat" />
+    <TextView android:textSize="13.0sp" android:textColor="#ffcfcfcf" android:id="@id/unipay_id_LoadingTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="27.0dip" android:text="loading in ..." />
+</LinearLayout>

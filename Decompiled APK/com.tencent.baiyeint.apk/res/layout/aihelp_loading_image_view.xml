@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/aihelp_image_view" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:minWidth="50.0dip" android:minHeight="50.0dip" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/aihelp_iv_play" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleType="centerInside" android:minWidth="40.0dip" android:minHeight="40.0dip" android:layout_centerInParent="true" app:srcCompat="@drawable/aihelp_svg_ic_play" />
+    <RelativeLayout android:gravity="center" android:id="@id/aihelp_v_mask" android:background="@drawable/aihelp_bg_uploading_mask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignLeft="@id/aihelp_image_view" android:layout_alignTop="@id/aihelp_image_view" android:layout_alignRight="@id/aihelp_image_view" android:layout_alignBottom="@id/aihelp_image_view" android:layout_alignStart="@id/aihelp_image_view" android:layout_alignEnd="@id/aihelp_image_view">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="60.0dip" android:layout_height="wrap_content" android:layout_centerHorizontal="true" app:srcCompat="@drawable/aihelp_logo_placeholder" />
+        <net.aihelp.core.ui.loading.indicator.LoadingIndicatorView android:id="@id/aihelp_loading_view" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" app:aihelp_loading_color="@android:color/white" />
+    </RelativeLayout>
+</RelativeLayout>

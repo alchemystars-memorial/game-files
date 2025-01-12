@@ -1,0 +1,97 @@
+ManifestFileVersion: 0
+CRC: 1390766276
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c3683d0ed3c08bdd963f3fc7eb9370ac
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 90393c99ad438e7004fa44f94adbb299
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 111
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1741964061, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 853051423, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -2095666955, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -405508275, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 575553740, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1679637790, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -1200242548, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -98529514, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -2061169968, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1367256648, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 2109663825, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: -1184210157, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1297475563, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+- Class: 114
+  Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: -765806418, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 575553740, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 708705254, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 014cb3c206b931944b072c4c86027aeb, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dbb67b488be65424baa085d9a9c2c63c, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+Assets:
+- Assets/Actions/Resources/LevelInfinite/Prefabs/ChangePhonePopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/ParentCertificatePopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/AccountSettingWindowLandscape_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/RewardSentPopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/ChangeNamePopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/SelfCertificatePopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/DeleteAccountPopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/ResetPasswordPopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/RegisterPopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/TipsPopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/UnlinkChannelPopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/RegionAndClauseWindow_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/ToastPanelPortrait_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/ChangeEmailPopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/PrizeDetailsWindow_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/AuthWindow_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/BindPhonePopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/LegalProvisionsPopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/BindAccountPopup_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/LoadingPanel_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/AccountSettingWindowPortrait_copy.prefab
+- Assets/Actions/Resources/LevelInfinite/Prefabs/ToastPanelLandscape_copy.prefab
+Dependencies: []

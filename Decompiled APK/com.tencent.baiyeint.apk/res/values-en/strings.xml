@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alchemy Stars</string>
+    <string name="rationale_ask_again">This app can not work correctly without the requested permissions.Open the app settings screen to modify app permissions.</string>
+    <string name="rationale_ask_cancel">Reject</string>
+    <string name="rationale_ask_ok">OK</string>
+    <string name="rationale_read_external_storage">This app needs access to your external storage to visit resource files.</string>
+    <string name="title_settings_dialog">Permissions Required</string>
+</resources>

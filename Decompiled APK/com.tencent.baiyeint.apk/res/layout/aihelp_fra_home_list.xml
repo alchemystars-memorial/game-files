@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/aihelp_main_content" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aihelp_ll_notification" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/aihelp_iv_notification" android:visibility="gone" android:layout_width="16.0dip" android:layout_height="16.0dip" app:srcCompat="@drawable/aihelp_svg_ic_notification" />
+            <net.aihelp.ui.widget.AIHelpViewFlipper android:id="@id/aihelp_vf_notification" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:flipInterval="3000" android:layout_marginStart="8.0dip" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/aihelp_ll_root" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</FrameLayout>

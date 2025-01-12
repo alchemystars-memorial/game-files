@@ -1,0 +1,6 @@
+apkBase: com.tencent.baiyeint.apk
+icon: icon.png
+manifest: manifest.json
+obb: Android\obb\com.tencent.baiyeint\main.2247188.com.tencent.baiyeint.obb
+obb: Android\obb\com.tencent.baiyeint\patch.2247188.com.tencent.baiyeint.obb
+xapkFileName: Alchemy Stars_1.43.0_APKPure.xapk

@@ -1,0 +1,151 @@
+{
+  "comments": [
+    "配置可参考管理控制台上的配置模版文件 https://cdn.wetest.qq.com/cube/com/apmcc/QQC_configuration_template.rar",
+    "各项配置大小写都不敏感",
+    "目前只启用 filter-model, filter-gpu, filter-soc",
+    "安卓 model 可以参考这里：https://github.com/KHwang9883/MobileModels",
+    "安卓 GPU 参考类似于 https://zh.wikipedia.org/wiki/Mali_(GPU)",
+    "安卓 soc 参考类似于 https://www.wikiwand.com/en/List_of_Qualcomm_Snapdragon_processors",
+    "没有用到的配置项需要的话请打开开关或联系框架组",
+    "若嫌同款机型下类似全网通和移动版的 model 代码不一致配着麻烦，可以开启 \"regex\":1 正则匹配模式，具体参见下方链接第10条",
+    "https://sdk.gcloud.tencent.com/documents/details/GPM%20SDK/SDK%E6%8E%A5%E5%85%A5/%E6%8E%A5%E5%85%A5%E6%95%99%E7%A8%8B%EF%BC%88UE4%EF%BC%89",
+    "因为云控版本管理那儿有 bug，配置升级策略强制为本地默认文件指定一个唯一的表示最新的数字版本号，譬如 999，同时云控那儿永远只更新上传 QCC_{gameId}_999 这个名字的文件来作为最新",
+    "下方用到正则是因为华为有些机型上 model 接口返回的不一致，有的带 HUAWEI，有的不带",
+    "配置这块坑略多，有问题请联系框架组"
+  ],
+
+  "version": 88888888,
+  "configureList": [ "default" ],
+  "default": {
+    "classLevelNum": 3,
+    "regex": 1,
+    "classLevelValues": [ 0, 1, 2 ],
+    "defLevel": 0,
+    "switchops": 14,
+    "andopts": 14,
+    "emulator": 1,
+
+    "filter-model": {
+      "0": [
+        "Honor 区域",
+        ".*SCL-AL00",
+        ".*SCL-TL00H",
+        "HUAWEI 区域",
+        ".*U9200",
+        ".*U9200S",
+        ".*P6-C00"
+      ],
+      "1": [
+        "Honor 区域",
+        ".*AKA-AL10",
+        ".*AQM-AL10",
+        ".*KIW-CL00",
+        ".*HRY-TL00",
+        "HUAWEI 区域",
+        ".*ALE-UL00",
+        ".*GRA-CL00",
+        ".*EVA-TL00",
+        ".*NXT-AL10",
+        ".*EVA-AL10",
+        ".*VTR-AL00",
+        ".*ALP-AL00"
+      ],
+      "2": [
+        "Honor 区域",
+        ".*HRY-AL00T",
+        ".*HRY-AL00Ta",
+        ".*YAL-AL10",
+        ".*LRA-AL00",
+        ".*BMH-AN10",
+        ".*EBG-AN00",
+        ".*MXW-AN00",
+        ".*OXF-AN00",
+        ".*OXF-AN10",
+        "HUAWEI 区域",
+        ".*EML-AL00",
+        ".*CLT-AL00",
+        ".*ELE-AL00",
+        ".*VOG-AL00",
+        ".*ANA-AN00",
+        ".*ELS-AN00",
+        "MI 区域",
+        "Redmi Note 5"
+      ]
+    },
+
+    "filter-gpu": {
+      "0": [
+        "Mali-400 MP",
+        "Mali-T622"
+      ],
+      "1": [
+        "Mali-T820",
+        "Mali-T720"
+      ],
+      "2": [
+        "Mali-G57",
+        "Mali-G77"
+      ]
+    },
+
+    "filter-soc": {
+      "0": [
+        "MSM7225",
+        "MSM7625"
+      ],
+      "1": [
+        "SDM630",
+        "MSM8976 Pro"
+      ],
+      "2": [
+        "SM6115",
+        "SM6125",
+        "SM6150",
+        "SM6350"
+      ]
+    },
+    
+    "cpufreq": [ 1200, 2000 ],
+
+    "filter-manu": {
+      "0": [],
+      "1": [],
+      "2": []
+    },
+
+    "resolution": [ 720, 1080 ],
+    "ram": [ 2000, 4000 ],    
+    "cpucores": [ 2, 4 ],
+    "gpu_vendor": {
+      "adreno": {
+        "series": [ "100", "200", "300", "400", "500" ],
+        "100": [ 199, 199 ],
+        "200": [ 299, 299 ],
+        "300": [ 399, 399 ],
+        "400": [ 499, 499 ],
+        "500": [ 505, 512 ]
+      },
+      "mali": {
+        "series": [ "g", "t" ],
+        "g": [ 0, 71],
+        "t": [ 760, 760]
+      },
+      "powervr": {
+        "series": [ "sgx", "gt", "ge", "gx", "g" ],
+        "sgx": [ 99999, 99999 ],
+        "gt": [ 0, 7600 ],
+        "ge": [  0, 9999 ],
+        "gx": [ 0, 6450 ],
+        "g": [ 0, 6430 ]
+      },
+      "tegra": {
+        "series": [ "k1", "x1", "2", "3", "4" ],
+        "k1": [ 2, 9 ],
+        "x1": [ 1, 9 ],
+        "2": [ 9999, 9999 ],
+        "3": [ 9999, 9999 ],
+        "4": [ 9999, 9999 ]
+      }
+    }
+  }
+}

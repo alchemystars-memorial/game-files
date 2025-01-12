@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 2957795349
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: pc_levelinfinite_lua32.assetbundle
+      Dependencies: {}
+    Info_1:
+      Name: pc_levelinfinite_lua64.assetbundle
+      Dependencies: {}

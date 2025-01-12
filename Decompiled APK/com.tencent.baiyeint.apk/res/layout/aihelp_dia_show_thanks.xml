@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/aihelp_rl_show_thanks" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/aihelp_iv_show_heart" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:layout_centerHorizontal="true" app:srcCompat="@drawable/aihelp_svg_ic_show_heart" />
+    <TextView android:textSize="16.0sp" android:textColor="@android:color/black" android:id="@id/aihelp_tv_thanks" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="15.0dip" android:layout_below="@id/aihelp_iv_show_heart" android:layout_centerHorizontal="true" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/aihelp_ll_go_rate" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="-5.0dip" android:layout_marginRight="12.0dip" android:layout_below="@id/aihelp_tv_thanks" android:layout_centerHorizontal="true" android:layout_marginEnd="12.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="#ff6d7278" android:id="@id/aihelp_tv_invite_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <net.aihelp.ui.widget.AIHelpButton android:textSize="15.0sp" android:layout_gravity="center_horizontal" android:id="@id/aihelp_go_rate" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="10.0dip" />
+    </LinearLayout>
+    <TextView android:textSize="8.0sp" android:textColor="#ffabb0bc" android:gravity="center" android:layout_gravity="bottom" android:id="@id/aihelp_logo" android:background="#ff444953" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="Powered by AIHELP.NET" android:layout_below="@id/aihelp_ll_go_rate" />
+</RelativeLayout>

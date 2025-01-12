@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" style="@style/twitter_action_container">
+        <ImageButton android:id="@id/twitter_btn_back" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:src="@drawable/com_intlgame_twitterweb_bg_back" android:scaleType="centerInside" style="@style/twitter_action_button" />
+        <TextView android:id="@id/twitter_tv_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/twitter_action_title" android:layout_weight="1.0" style="@style/twitter_action_title" />
+        <ImageButton android:id="@id/twitter_btn_close" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:src="@drawable/com_intlgame_twitterweb_bg_close" android:scaleType="centerInside" style="@style/twitter_action_button" />
+    </LinearLayout>
+    <View style="@style/twitter_line" />
+    <ProgressBar android:id="@id/twitter_bar_progress" android:visibility="visible" style="@style/twitter_progress_bar" />
+    <FrameLayout android:id="@id/twitter_web_view_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

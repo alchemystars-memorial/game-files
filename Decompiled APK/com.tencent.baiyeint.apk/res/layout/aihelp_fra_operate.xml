@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/aihelp_operate_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <net.aihelp.ui.widget.tabs.TabLayout android:id="@id/aihelp_tab" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aihelp_tab_indicator_full_width="false" app:aihelp_tab_mode="fixed" />
+    <androidx.viewpager2.widget.ViewPager2 android:orientation="horizontal" android:id="@id/aihelp_view_pager" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

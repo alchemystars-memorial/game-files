@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/register_base_screen" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/dmm_olgid_sdk_fragment_activity_title_layout" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="46.0dip">
+        <ProgressBar android:id="@id/dmm_olgid_sdk_title_progress" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:indeterminate="true" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="20.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/dmm_olgid_sdk_fragment_activity_title" android:background="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+        <Button android:textSize="15.0sp" android:textColor="@drawable/dmmopenauth_cancel_btn_state" android:id="@id/dmm_olgid_sdk_fragment_activity_cancel" android:background="#ff000000" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/dmmopenauth_login_cancel_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/dmm_olgid_sdk_fragment_base" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/dmm_olgid_sdk_fragment_activity_title_layout" />
+</RelativeLayout>

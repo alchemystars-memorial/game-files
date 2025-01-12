@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/aihelp_bg_network_toast" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="150.0dip" android:minHeight="100.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/aihelp_svg_ic_network_fine" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffffffff" android:id="@id/aihelp_toast_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" />
+</LinearLayout>

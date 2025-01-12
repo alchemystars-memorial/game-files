@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout style="@style/unipay_abroad_wrap"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/unipay_abroad_fill.bg" />
+    <LinearLayout style="@style/unipay_dialog.land">
+        <ImageView style="@style/unipay_abroad_wrap.iconfail" />
+        <TextView android:layout_gravity="center" android:layout_marginBottom="4.0dip" android:text="Error" style="@style/unipay_abroad_text.em" />
+        <TextView android:textSize="@dimen/unipay_abroad_size1" android:text="Please try again" style="@style/unipay_abroad_text.em" />
+        <LinearLayout style="@style/unipay_abroad_btn_wrap">
+            <Button android:text="Cancel" style="@style/unipay_abroad_btn_cancel_style" />
+            <Button android:text="OK" style="@style/unipay_abroad_btn_ok_style" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

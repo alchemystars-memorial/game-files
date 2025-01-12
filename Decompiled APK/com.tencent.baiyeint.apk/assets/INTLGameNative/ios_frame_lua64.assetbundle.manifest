@@ -1,0 +1,30 @@
+ManifestFileVersion: 0
+CRC: 1735757525
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 8546af7d9da9d88279eac5902063a16e
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Actions/Resources/Frame/Lua64/BasicClass.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/TableTool.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/ActivityManager.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/EventDispatcher.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/GameNativeConst.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/Enum.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/GameNativeUtils.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/StringTool.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/GameNativeSDKUnity.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/JsonManager.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/GameNativeMain.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/GameNativeSDKUnreal.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/GameNativeConfig.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/GameNativeSDK.lua.bytes
+- Assets/Actions/Resources/Frame/Lua64/Logger.lua.bytes
+Dependencies: []

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/share_bg_container" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@color/intl_webview_color_line" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/share_recyclerView" android:paddingTop="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <Button android:textSize="@dimen/cancel_font_size" android:typeface="monospace" android:textColor="@color/intl_webview_color_fonts" android:gravity="center" android:id="@id/share_cancel" android:background="@color/intl_webview_color_share_btn_bg" android:layout_width="fill_parent" android:layout_height="@dimen/toolbar_height" android:text="@string/intl_webview_cancel" />
+</LinearLayout>

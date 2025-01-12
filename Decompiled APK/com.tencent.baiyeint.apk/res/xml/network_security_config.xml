@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <base-config cleartextTrafficPermitted="false">
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </base-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="true">sandbox.centauriglobal.com</domain>
+        <domain includeSubdomains="true">www.alchemystars.kr</domain>
+        <domain includeSubdomains="true">alchemystars.kr</domain>
+        <domain includeSubdomains="true">www.alchemystars.com</domain>
+        <domain includeSubdomains="true">alchemystars.com</domain>
+        <domain includeSubdomains="true">www.alchemystars.jp</domain>
+        <domain includeSubdomains="true">alchemystars.jp</domain>
+        <domain includeSubdomains="true">cbt.alchemystars.jp</domain>
+        <domain includeSubdomains="true">www.gachatest.alchemystars.com</domain>
+        <domain includeSubdomains="true">www.gacha.alchemystars.com</domain>
+        <domain includeSubdomains="true">out.survey.imur.tencent.com</domain>
+        <domain includeSubdomains="true">out.weisurvey.com</domain>
+        <domain includeSubdomains="true">imur.tencent.com</domain>
+        <domain includeSubdomains="true">a1cdn114.yx.com</domain>
+        <domain includeSubdomains="true">a1cdn104.yx.com</domain>
+        <trust-anchors>
+            <certificates src="system" />
+        </trust-anchors>
+    </domain-config>
+</network-security-config>

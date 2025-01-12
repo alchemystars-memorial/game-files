@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/aihelp_ll_bill_dialog" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_gravity="end" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:enabled="false" android:textSize="17.0sp" android:ellipsize="end" android:gravity="start" android:id="@id/aihelp_tv_send" android:paddingLeft="12.0dip" android:paddingTop="7.0dip" android:paddingRight="12.0dip" android:paddingBottom="5.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_centerInParent="true" android:alpha="0.6" android:paddingStart="12.0dip" android:paddingEnd="12.0dip" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/aihelp_iv_close" android:padding="12.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:srcCompat="@drawable/aihelp_svg_ic_close_dialog" />
+    </RelativeLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ListView android:id="@id/aihelp_lv_bill" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:fadeScrollbars="false" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" />
+        <ProgressBar android:layout_gravity="center" android:id="@id/aihelp_loading_progress" android:background="@null" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:indeterminate="true" android:indeterminateTint="@color/aihelp_color_main" android:indeterminateTintMode="src_in" style="?android:progressBarStyleHorizontal" />
+        <RelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/aihelp_rl_empty" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/aihelp_v_empty" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerHorizontal="true" app:srcCompat="@drawable/aihelp_svg_ic_empty" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffc0c0c0" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/aihelp_tv_error_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/aihelp_v_empty" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </FrameLayout>
+</LinearLayout>

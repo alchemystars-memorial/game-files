@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@null" android:padding="@dimen/unipay_activity_horizontal_margin" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@drawable/unipay_abroad_drawable_topbg" android:layout_width="fill_parent" android:layout_height="40.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="#ffffffff" android:gravity="center" android:id="@id/unipay_id_h5_title" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Purchase" />
+        <ImageButton android:id="@id/unipay_id_close" android:background="@null" android:layout_width="44.0dip" android:layout_height="fill_parent" android:button="@null" android:src="@drawable/unipay_abroad_iconclose" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/unipay_webview_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

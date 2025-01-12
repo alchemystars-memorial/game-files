@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:state_enabled="false" android:state_pressed="true">
+        <shape android:shape="oval" android:useLevel="true">
+            <size android:height="35.0dip" android:width="35.0dip" />
+            <solid android:color="#ffc6c9d7" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_enabled="false">
+        <shape android:shape="oval" android:useLevel="true">
+            <size android:height="35.0dip" android:width="35.0dip" />
+            <solid android:color="#ffc6c9d7" />
+        </shape>
+    </item>
+    <item android:state_focused="true" android:state_pressed="true">
+        <shape android:shape="oval" android:useLevel="true">
+            <size android:height="35.0dip" android:width="35.0dip" />
+            <solid android:color="#ffc6c9d7" />
+        </shape>
+    </item>
+    <item android:state_focused="false" android:state_pressed="true">
+        <shape android:shape="oval" android:useLevel="true">
+            <size android:height="35.0dip" android:width="35.0dip" />
+            <solid android:color="#ffc6c9d7" />
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval" android:useLevel="true">
+            <size android:height="35.0dip" android:width="35.0dip" />
+            <solid android:color="@color/aihelp_color_bg_white" />
+        </shape>
+    </item>
+</selector>

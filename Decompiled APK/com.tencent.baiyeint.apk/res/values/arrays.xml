@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ShareChannel">
+        <item>Facebook</item>
+    </string-array>
+    <string-array name="urlKeyFilter">
+        <item>key1</item>
+        <item>key2</item>
+        <item>key3</item>
+    </string-array>
+</resources>

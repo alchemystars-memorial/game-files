@@ -1,0 +1,85 @@
+{
+	"classLevelNum": 7,
+	"classLevelValues": [0, 1, 2, 3, 4, 5, 6],
+	"defLevel": 2,
+	"switchops": 512,
+	"regex" : 0,
+	"andopts": 512,
+	"filter-model": {
+		"0": [],
+		"1": ["vivo X5Pro D", "TAG-TL", "TAG-AL", "M 1E", "OPPO A59s", "OPPO A59m", "M5 Note", "vivo Y67", "OPPO R9m","OPPO R9km","OPPO R9t", "NEM-AL", "m1 metal","Le X620","LEX626","Le X621", "M2 E"],
+		"2": ["vivo X5Max","vivo X5S L", "Redmi Pro","MP1701","PRO 6", "Redmi 5", "MI 5C","BAC-AL","SM-G928","EVA-AL00","VIE-AL10","MX6","BAC-AL00","SM-G9280","SM-G9250","OPPO A57","vivo Y66","Le X520","HUAWEI NXT-AL10","HUAWEI NXT-DL00","HUAWEI NXT-CL00","Redmi Note 4","EVA-AL00","MI 4LTE","Redmi 3S","FRD-AL00","MI NOTE LTE","SM-C700"],
+		"3": ["vivo X9i", "vivo X6S", "MI MAX", "OPPO R9 P", "PIC-AL00", "MI NOTE 3", "PIC-AL00", "vivo X6SPlus D", "MI MAX 2", "vivo X9", "vivo X7", "vivo X7Plus", "vivo X9Plus", "MHA-AL00", "vivo X9i", "vivo X6S A", "HUAWEI MLA-AL10", "DUK-AL20", "VTR-AL00", "HUAWEI CAZ-AL10", "vivo Xplay5A", "VKY-AL00", "MI 5s", "MI 5"],
+		"4": ["SM-G930", "SM-G935", "PRO 7", "MI NOTE Pro", "SM-N910","PACT00", "CPH1835", "CPH1819", "CPH1821"],
+		"5": ["OPPO R11", "vivo X20","vivo X21", "PAAM00", "PAAT00", "CPH1831", "CPH1833"],
+		"6": ["MI 8", "MIX 2S", "MIX 3", "SM-N910U1", "iPhone10,2", "15"]
+	},
+	"emulator": 2,
+	"filter-gpu": {
+		"0": [],
+		"1": [],
+		"2": [],
+		"3": ["Mali-G71"],
+		"4": [],
+		"5": [],
+		"6": []
+	},
+
+	"filter-soc": {
+		"0": [],
+		"1": ["mt6761", "mt6750", "mt6755", "mt673", "hi3650", "mt6753", "msm8974","mt6752"],
+		"2": ["msm8084", "msm8937", "mt6758", "mt6757", "mt6752", "mt6797", "RK3288", "hi3650", "song"],
+		"3": ["mt6765", "mt6762", "msm8994", "apq8084", "msm8952", "msm8953", "sdm660", "kirin960"],
+		"4": ["msm8996"],
+		"5": ["kirin970", "exynos5"],
+		"6": ["sdm845","sdm855","msm8998"]
+	},
+
+	"filter-manu": {
+		"0": [],
+		"1": [],
+		"2": ["coolpad"],
+		"3": [],
+		"4": [],
+		"5": [],
+		"6": []
+	},
+
+	"resolution": [0, 720, 720, 720, 1080, 9999],
+	"ram": [1000, 1999, 1999, 2499, 3499, 9999],
+	"cpufreq": [1000, 1800, 1800, 2000, 2000, 9999],
+	"cpucores": [1, 4, 4, 4, 4, 9999],
+	"gpu_vendor": {
+		"adreno": {
+			"series": ["100", "100", "200", "300", "400", "500", "600"],
+			"100": [100, 199, 199, 199, 199, 199],
+			"200": [200, 299, 299, 299, 299, 299],
+			"300": [300, 399, 399, 399, 399, 399],
+			"400": [400, 499, 499, 499, 499, 499],
+			"500": [500, 506, 512, 530, 540, 560],
+			"600": [600, 600, 600, 600, 610, 610]
+		},
+		"mali": {
+			"series": ["g", "t"],
+			"g": [0, 0, 71, 71, 72, 99],
+			"t": [0, 760, 860, 888, 888, 999]
+		},
+		"powervr": {
+			"series": ["sgx", "gt", "ge", "gx", "g" , "gm"],
+			"sgx": [0, 99999, 99999, 99999, 99999, 99999],
+			"gt": [0, 0, 0, 7600, 7800, 9999],
+			"ge": [0, 8301, 8320, 8320, 8320, 9999],
+			"gm": [0, 8301, 8320, 8320, 8320, 9999],
+			"gx": [0, 0, 6450, 6850, 6851, 9999],
+			"g": [0, 0, 6430, 6430, 9999, 9999]
+		},
+		"tegra": {
+			"series": ["k1", "x1", "2", "3", "4"],
+			"k1": [0, 0, 0, 0, 2, 9],
+			"x1": [0, 0, 0, 0, 1, 9],
+			"2": [0, 0, 9999, 9999, 9999, 9999],
+			"3": [0, 0, 0, 0, 9999, 9999],
+			"4": [0, 0, 0, 0, 9999, 9999]
+		}
+	}
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:textColor="@color/aihelp_color_text_content" android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="80.0dip" android:layout_height="80.0dip" app:srcCompat="@drawable/aihelp_svg_ic_empty" />
+    <TextView android:textSize="15.0sp" android:textColor="#ff4a4a4a" android:gravity="center_horizontal" android:id="@id/aihelp_tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" />
+    <TextView android:textSize="14.0sp" android:textColor="#ffc0c0c0" android:gravity="center_horizontal" android:id="@id/aihelp_tv_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" android:layout_marginBottom="150.0dip" />
+</LinearLayout>

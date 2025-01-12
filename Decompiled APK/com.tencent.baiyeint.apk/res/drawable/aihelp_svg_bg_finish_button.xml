@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="70.0dip" android:width="135.0dip" android:autoMirrored="true" android:viewportWidth="135.0" android:viewportHeight="70.0" xmlns:aapt="http://schemas.android.com/aapt"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff000000" android:pathData="M35,8L100,8A25,25 0,0 1,125 33L125,33A25,25 0,0 1,100 58L35,58A25,25 0,0 1,10 33L10,33A25,25 0,0 1,35 8z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillAlpha="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$aihelp_svg_bg_finish_button__0" android:pathData="M35,8L100,8A25,25 0,0 1,125 33L125,33A25,25 0,0 1,100 58L35,58A25,25 0,0 1,10 33L10,33A25,25 0,0 1,35 8z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M78.445,25.53C77.738,24.823 76.592,24.823 75.884,25.53L64.787,36.628L60.091,31.933C59.384,31.226 58.238,31.226 57.53,31.933C56.823,32.64 56.823,33.787 57.53,34.494L63.506,40.47C64.213,41.177 65.36,41.177 66.067,40.47L78.445,28.091C79.153,27.384 79.153,26.238 78.445,25.53Z" android:strokeColor="#00000000" android:strokeWidth="1.0" android:fillType="nonZero" />
+</vector>

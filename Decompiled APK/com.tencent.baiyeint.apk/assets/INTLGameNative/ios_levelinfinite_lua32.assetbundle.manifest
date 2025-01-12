@@ -1,0 +1,75 @@
+ManifestFileVersion: 0
+CRC: 279319407
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: be1e443dd8079804fe599161ce77465f
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 5ad585dd02dfb5016c0dad519eab8f49
+HashAppended: 0
+ClassTypes:
+- Class: 49
+  Script: {instanceID: 0}
+Assets:
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/BindPhoneController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfiniteController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/ChangeNamePanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/BindPhonePanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Utils/CountryLocalize.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfiniteConst.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/RetsetPassword/ResetPasswordPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/RegisterPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AuthLoginController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Common/LoadingController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/BindAccountController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/AccountSettingPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfiniteData.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/AccountSettingController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/ChangeEmailPopupController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Common/TipsPopupController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Region/RegionTermsPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Utils/SafeAreaConfig.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Certificate/SelfCertificatePanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/RegisterController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Utils/fsm.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Certificate/DeleteAccountController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/PrizeDetailsController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/ChangeNameController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Utils/CountryConfig.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfiniteBaseView.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfinitePanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfiniteLocalize.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/ChangeEmailPopupPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Certificate/SelfCertificateController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Common/LoadingPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfiniteAssetInfo.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/ChangePhonePanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/ChangePhoneController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Region/RegionTermsController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfiniteConfig.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Region/Region.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfiniteReport.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Certificate/ParentCertificatePanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/BindAccountPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfiniteUI.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/UnlinkChannelPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Common/RewardSentPopupController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/AccountSettingConst.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Common/ToastPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AuthWindowController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Common/ToastController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Certificate/DeleteAccountPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Certificate/ParentCertificateController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/LegalProvisionsPopupController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfiniteAssetVersion.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AuthWindowPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Common/TipsPopupPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Utils/CommonUtils.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/Region/RegionClause.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/LegalProvisionsPopupPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/LevelInfinite.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/RetsetPassword/ResetPasswordController.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/PrizeDetailsPanel.lua.bytes
+- Assets/Actions/Resources/LevelInfinite/Lua32/AccountSetting/UnlinkChannelController.lua.bytes
+Dependencies: []

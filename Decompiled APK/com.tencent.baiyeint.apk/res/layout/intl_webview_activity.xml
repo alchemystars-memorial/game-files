@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/playout" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/titlebar" android:background="@color/intl_webview_title_bar" android:layout_width="fill_parent" android:layout_height="@dimen/titlebar_height" android:layout_alignParentTop="true">
+        <TextView android:textSize="@dimen/titlebar_text_size" android:textColor="@color/intl_webview_title_bar_text" android:gravity="center" android:id="@id/webTitle" android:layout_width="@dimen/titlebar_text_width" android:layout_height="fill_parent" android:singleLine="true" android:layout_centerHorizontal="true" />
+        <ImageButton android:id="@id/more" android:background="@drawable/intl_webview_sel_btn_bg" android:paddingLeft="@dimen/btn_margin_half" android:paddingRight="@dimen/btn_margin_half" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/btn_margin_half" android:src="@drawable/intl_webview_btn_more" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/webview_framelayout" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/toolbar" android:layout_below="@id/titlebar" />
+    <ProgressBar android:id="@id/view_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="3.0dip" android:progress="30" android:progressDrawable="@drawable/intl_webview_progress_bg" android:layout_alignTop="@id/webview_framelayout" style="@android:style/Widget.ProgressBar.Horizontal" />
+    <LinearLayout android:id="@id/toolbar" android:background="@color/intl_webview_toolbar_visible" android:layout_width="fill_parent" android:layout_height="@dimen/titlebar_height" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/back" android:background="@drawable/intl_webview_sel_btn_bg" android:paddingLeft="@dimen/btn_margin" android:paddingRight="@dimen/btn_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/intl_webview_btn_left" />
+            <ImageButton android:id="@id/backUnclickable" android:background="@drawable/intl_webview_sel_btn_bg" android:paddingLeft="@dimen/btn_margin" android:paddingRight="@dimen/btn_margin" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/intl_webview_btn_left_disabled" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/forward" android:background="@drawable/intl_webview_sel_btn_bg" android:paddingLeft="@dimen/btn_margin" android:paddingRight="@dimen/btn_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/intl_webview_btn_right" />
+            <ImageButton android:id="@id/forwardUnclickable" android:background="@drawable/intl_webview_sel_btn_bg" android:paddingLeft="@dimen/btn_margin" android:paddingRight="@dimen/btn_margin" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/intl_webview_btn_right_disabled" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/stop" android:background="@drawable/intl_webview_sel_btn_bg" android:paddingLeft="@dimen/btn_margin" android:paddingRight="@dimen/btn_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/intl_webview_btn_stop" />
+            <ImageButton android:id="@id/refresh" android:background="@drawable/intl_webview_sel_btn_bg" android:paddingLeft="@dimen/btn_margin" android:paddingRight="@dimen/btn_margin" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/intl_webview_btn_refresh" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:id="@id/land_layout_more" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/landMore" android:background="@drawable/intl_webview_sel_btn_bg" android:paddingLeft="@dimen/btn_margin" android:paddingRight="@dimen/btn_margin" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/intl_webview_btn_more" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <ImageButton android:id="@id/return_app" android:background="@drawable/intl_webview_sel_btn_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/btn_margin" android:layout_marginRight="@dimen/btn_margin" android:src="@drawable/intl_webview_btn_close" />
+            <ImageButton android:id="@id/return_app_disabled" android:background="@drawable/intl_webview_sel_btn_bg" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/btn_margin" android:layout_marginRight="@dimen/btn_margin" android:src="@drawable/intl_webview_btn_close_disabled" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

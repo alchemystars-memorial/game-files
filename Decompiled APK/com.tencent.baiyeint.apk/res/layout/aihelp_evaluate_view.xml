@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="60.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aihelp_ll_evaluate_faq" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_gravity="center" android:id="@id/aihelp_iv_un_helpful" android:background="@drawable/aihelp_bg_msg_faq_feedback" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginRight="60.0dip" android:scaleType="fitCenter" android:layout_marginEnd="60.0dip" app:srcCompat="@drawable/aihelp_svg_ic_un_helpful" />
+        <androidx.appcompat.widget.AppCompatImageView android:gravity="center" android:layout_gravity="center" android:id="@id/aihelp_iv_helpful" android:background="@drawable/aihelp_bg_msg_faq_feedback" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginLeft="60.0dip" android:scaleType="fitCenter" android:layout_marginStart="60.0dip" app:srcCompat="@drawable/aihelp_svg_ic_helpful" />
+    </FrameLayout>
+    <RelativeLayout android:gravity="center" android:orientation="horizontal" android:id="@id/aihelp_ll_feedback" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <net.aihelp.ui.widget.AIHelpTextView android:textSize="14.0sp" android:gravity="center_vertical" android:id="@id/aihelp_tv_thanks" android:layout_width="wrap_content" android:layout_height="fill_parent" android:drawablePadding="10.0dip" android:layout_centerVertical="true" />
+        <net.aihelp.ui.widget.AIHelpButton android:textSize="15.0sp" android:textColor="@color/aihelp_color_bg_white" android:gravity="center" android:id="@id/aihelp_tv_advice" android:background="@drawable/aihelp_bg_faq_content_advice" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_toRightOf="@id/aihelp_tv_thanks" android:layout_centerVertical="true" android:layout_marginStart="8.0dip" android:layout_toEndOf="@id/aihelp_tv_thanks" />
+    </RelativeLayout>
+</FrameLayout>

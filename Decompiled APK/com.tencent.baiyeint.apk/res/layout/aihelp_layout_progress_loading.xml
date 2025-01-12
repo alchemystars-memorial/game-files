@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:background="#ffeeeeee" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="12.0sp" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/aihelp_loading_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="80.0dip" android:maxLines="2" android:lineSpacingExtra="10.0dip" />
+    <ProgressBar android:id="@id/aihelp_loading_progress" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:indeterminate="true" android:layout_below="@id/aihelp_loading_msg" android:layout_alignLeft="@id/aihelp_loading_msg" android:layout_alignRight="@id/aihelp_loading_msg" android:layout_centerHorizontal="true" android:layout_alignStart="@id/aihelp_loading_msg" android:layout_alignEnd="@id/aihelp_loading_msg" android:indeterminateTint="@color/aihelp_color_main" android:indeterminateTintMode="src_in" style="?android:progressBarStyleHorizontal" />
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/aihelp_ll_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/aihelp_faq_content" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/aihelp_faq_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <net.aihelp.ui.webkit.AIHelpWebView android:id="@id/aihelp_web_view" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <net.aihelp.ui.widget.AIHelpEvaluateView android:id="@id/aihelp_evaluate_faq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aihelp_evaluate_target="faq" />
+            <net.aihelp.ui.widget.AIHelpServiceEntrance android:textSize="15.0sp" android:layout_gravity="center_horizontal" android:id="@id/aihelp_cs_entrance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" />
+        </LinearLayout>
+    </ScrollView>
+    <net.aihelp.ui.webkit.AIHelpWebProgress android:id="@id/aihelp_progress_bar" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</FrameLayout>

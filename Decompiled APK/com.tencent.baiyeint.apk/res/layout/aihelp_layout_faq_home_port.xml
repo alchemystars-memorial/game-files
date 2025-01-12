@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@android:color/transparent" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:paddingStart="12.0dip" android:paddingEnd="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <net.aihelp.ui.widget.AIHelpFaqCardLayout android:id="@id/aihelp_rv_hot_topics" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+        <net.aihelp.ui.widget.AIHelpFaqCardLayout android:id="@id/aihelp_rv_common_questions" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="8.0dip" />
+        <net.aihelp.ui.widget.AIHelpServiceEntrance android:textSize="15.0sp" android:layout_gravity="center_horizontal" android:id="@id/aihelp_cs_entrance" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="20.0dip" />
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:id="@id/aihelp_fl_operate_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/aihelp_faq_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <net.aihelp.ui.webkit.AIHelpWebView android:id="@id/aihelp_web_view" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <net.aihelp.ui.widget.AIHelpEvaluateView android:id="@id/aihelp_evaluate_op" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:aihelp_evaluate_target="faq" />
+        </LinearLayout>
+    </ScrollView>
+    <net.aihelp.ui.webkit.AIHelpWebProgress android:id="@id/aihelp_progress_bar" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+</FrameLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingLeft="8.0dip" android:paddingTop="13.0dip" android:paddingRight="3.5dip" android:paddingBottom="13.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.linecorp.linesdk.dialog.internal.CircleImageView android:id="@id/imageViewTargetUser" android:layout_width="48.0dip" android:layout_height="48.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="34.5dip" android:src="@drawable/img_x" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="12.0sp" android:textColor="@color/target_user_thumbnail_text" android:ellipsize="end" android:gravity="center" android:id="@id/textViewDisplayName" android:layout_width="48.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.5dip" android:singleLine="true" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/imageViewTargetUser" />
+</androidx.constraintlayout.widget.ConstraintLayout>

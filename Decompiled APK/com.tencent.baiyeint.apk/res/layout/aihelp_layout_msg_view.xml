@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:layout_width="44.0dip" android:layout_height="44.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/aihelp_iv_right" android:layout_width="20.0dip" android:layout_height="20.0dip" android:scaleType="fitCenter" app:srcCompat="@drawable/aihelp_svg_ic_msg_read" />
+    <View android:id="@id/aihelp_v_unread_status" android:background="@drawable/aihelp_bg_msg_unread" android:layout_width="6.0dip" android:layout_height="6.0dip" android:layout_alignRight="@id/aihelp_iv_right" android:layout_alignEnd="@id/aihelp_iv_right" />
+</RelativeLayout>
